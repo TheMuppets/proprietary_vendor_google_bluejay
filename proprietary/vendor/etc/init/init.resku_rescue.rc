@@ -1,0 +1,4 @@
+
+on property:ro.vendor.trusty.storage.fs_ready=1
+    exec_background - system shell -- /vendor/bin/resku_rescue_kicker -d /dev/trusty-ipc-dev0
+
