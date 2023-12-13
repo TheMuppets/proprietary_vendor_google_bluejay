@@ -6,14 +6,14 @@ LOCAL_PATH := $(call my-dir)
 
 ifeq ($(TARGET_DEVICE),bluejay)
 
-$(call add-radio-file,radio/abl.img)
-$(call add-radio-file,radio/bl1.img)
-$(call add-radio-file,radio/bl2.img)
-$(call add-radio-file,radio/bl31.img)
-$(call add-radio-file,radio/gsa.img)
-$(call add-radio-file,radio/ldfw.img)
-$(call add-radio-file,radio/modem.img)
-$(call add-radio-file,radio/pbl.img)
-$(call add-radio-file,radio/tzsw.img)
+$(call add-radio-file-sha1-checked,radio/abl.img,18a74ec862f2ebe537e5b57ffe7583b79353d800)
+$(call add-radio-file-sha1-checked,radio/bl1.img,34b2ef5cf016e9b73b57af450730543cad44fe71)
+$(call add-radio-file-sha1-checked,radio/bl2.img,0c866113dfe5ee70cc81ecf1c0753f54c68ccb3e)
+$(call add-radio-file-sha1-checked,radio/bl31.img,581b053d549c5347566236fc499b67b7f2936102)
+$(call add-radio-file-sha1-checked,radio/gsa.img,86da4868ddb99a773b42c4e1c7ec8cde08f48f78)
+$(call add-radio-file-sha1-checked,radio/ldfw.img,ff1f1a1a7a93efd18ff0664c92c2cc444d2fb346)
+$(call add-radio-file-sha1-checked,radio/modem.img,fe55134dd98f8ae0d38cc8a27796c4a3a7c088d0)
+$(call add-radio-file-sha1-checked,radio/pbl.img,9b4d4d349547212f3911ac5397b5d6c8b379671d)
+$(call add-radio-file-sha1-checked,radio/tzsw.img,c9baf5e4964dc178c033f941400bd9024b964307)
 
 endif
