@@ -656,18 +656,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/bluejay/proprietary/product/etc/sysconfig/GoogleCamera_6gb_or_more_ram.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/GoogleCamera_6gb_or_more_ram.xml \
     vendor/google/bluejay/proprietary/product/etc/sysconfig/allowlist_com.android.omadm.service.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/allowlist_com.android.omadm.service.xml \
     vendor/google/bluejay/proprietary/product/etc/sysconfig/allowlist_com.shannon.imsservice.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/allowlist_com.shannon.imsservice.xml \
-    vendor/google/bluejay/proprietary/product/etc/sysconfig/google-hiddenapi-package-whitelist.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/google-hiddenapi-package-whitelist.xml \
-    vendor/google/bluejay/proprietary/product/etc/sysconfig/nexus.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/nexus.xml \
     vendor/google/bluejay/proprietary/product/etc/sysconfig/nowplaying_app_26q1.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/nowplaying_app_26q1.xml \
-    vendor/google/bluejay/proprietary/product/etc/sysconfig/pixel_experience_2017.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_experience_2017.xml \
-    vendor/google/bluejay/proprietary/product/etc/sysconfig/pixel_experience_2018.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_experience_2018.xml \
-    vendor/google/bluejay/proprietary/product/etc/sysconfig/pixel_experience_2019.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_experience_2019.xml \
-    vendor/google/bluejay/proprietary/product/etc/sysconfig/pixel_experience_2019_midyear.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_experience_2019_midyear.xml \
-    vendor/google/bluejay/proprietary/product/etc/sysconfig/pixel_experience_2020.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_experience_2020.xml \
-    vendor/google/bluejay/proprietary/product/etc/sysconfig/pixel_experience_2020_midyear.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_experience_2020_midyear.xml \
-    vendor/google/bluejay/proprietary/product/etc/sysconfig/pixel_experience_2021.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_experience_2021.xml \
-    vendor/google/bluejay/proprietary/product/etc/sysconfig/pixel_experience_2021_midyear.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_experience_2021_midyear.xml \
-    vendor/google/bluejay/proprietary/product/etc/sysconfig/pixel_experience_2022_midyear.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_experience_2022_midyear.xml \
     vendor/google/bluejay/proprietary/product/etc/sysconfig/preinstalled-packages-camera-services-base.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/preinstalled-packages-camera-services-base.xml \
     vendor/google/bluejay/proprietary/product/etc/sysconfig/preinstalled-packages-camera-services-common.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/preinstalled-packages-camera-services-common.xml \
     vendor/google/bluejay/proprietary/product/etc/sysconfig/preinstalled-packages-com.samsung.slsi.telephony.oem.oemrilhookservice.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/preinstalled-packages-com.samsung.slsi.telephony.oem.oemrilhookservice.xml \
@@ -679,7 +668,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/bluejay/proprietary/product/etc/sysconfig/preinstalled-packages-pixel-2022-midyear.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/preinstalled-packages-pixel-2022-midyear.xml \
     vendor/google/bluejay/proprietary/product/etc/sysconfig/preinstalled-packages-pixel-carrier.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/preinstalled-packages-pixel-carrier.xml \
     vendor/google/bluejay/proprietary/product/etc/sysconfig/preinstalled-packages-product-gs101-device.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/preinstalled-packages-product-gs101-device.xml \
-    vendor/google/bluejay/proprietary/product/etc/sysconfig/preinstalled_packages_pixel_experience_2021_and_newer.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/preinstalled_packages_pixel_experience_2021_and_newer.xml \
     vendor/google/bluejay/proprietary/recovery/system/etc/init/android.hardware.boot-service.default_recovery-pixel.rc:$(TARGET_COPY_OUT_RECOVERY)/root/system/etc/init/android.hardware.boot-service.default_recovery-pixel.rc \
     vendor/google/bluejay/proprietary/recovery/system/etc/init/android.hardware.health-service.gs101_recovery.rc:$(TARGET_COPY_OUT_RECOVERY)/root/system/etc/init/android.hardware.health-service.gs101_recovery.rc \
     vendor/google/bluejay/proprietary/system_ext/etc/default-permissions/default-permissions-euiccpixel.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/default-permissions/default-permissions-euiccpixel.xml \
